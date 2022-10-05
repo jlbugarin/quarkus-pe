@@ -1,1 +1,2 @@
 kn func create quarkus-func -l quarkus
+kn func deploy -r quay.io/rhn_sales_jbugarin/ -n quarkus-func-rh-pe -v
