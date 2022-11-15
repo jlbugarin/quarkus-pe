@@ -3,6 +3,8 @@ kn func create quarkus-func -l quarkus
 
 --probar la funcion en modo local
 mvnw quarkus:dev
+http://localhost:8080/?message=telodijoelbuga
+
 
 --generar y subir la imagen a un repositorio de imagenes
 kn func deploy -r quay.io/rhn_sales_jbugarin/__ -n quarkus-func-rh-pe -v
