@@ -9,9 +9,12 @@ http://localhost:8080/?message=telodijoelbuga
 Set-ExecutionPolicy Unrestricted
 
 --generar y subir la imagen a un repositorio de imagenes
-kn func deploy -r quay.io/rhn_sales_jbugarin/__ -n quarkus-func-rh-pe -v
+kn func deploy -r quay.io/repo/ -n <project_name> -v
+
 --desplegar directamente en openshift
 kn func deploy  -n <namespace> -c
+repositorio quay.io/rhn_sales_jbugarin/itic:jugbaq
+
 --eliminar la funcion del cluster
 kn func delete
 
