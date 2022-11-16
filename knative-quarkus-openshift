@@ -11,7 +11,7 @@ Set-ExecutionPolicy Unrestricted
 --generar y subir la imagen a un repositorio de imagenes
 kn func deploy -r quay.io/rhn_sales_jbugarin/__ -n quarkus-func-rh-pe -v
 --desplegar directamente en openshift
-kn func deploy  -n <namespace>
+kn func deploy  -n <namespace> -c
 --eliminar la funcion del cluster
 kn func delete
 
